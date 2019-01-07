@@ -1,0 +1,44 @@
+
+.jumbotron {
+    background-color: transparent;
+    padding: 0 0 0 0;
+    width: 750px;
+    float: left;
+
+}
+
+.jumbotron .carousel-inner {
+    border-radius: 12px;
+
+}
+
+.jumbotron .item.active img {
+    width: 750px;
+    height: 300px;
+
+}
+
+.jumbotron .carousel.slide {
+    border-radius: 12px;
+}
+
+.jumbotron a {
+    border-radius: 12px;
+}
+
+.green {
+    color: #5cb85c;
+}
+
+.thumbs {
+    padding: 40px 0;
+}
+
+.thumbnail > img {
+    max-width: 60%;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 40px 0;
+}

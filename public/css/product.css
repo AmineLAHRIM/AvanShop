@@ -1,0 +1,87 @@
+
+.buy {
+    margin-top: 20px;
+    background-color: #00f191;
+}
+
+.buy:hover {
+    background-color: #00c472;
+}
+
+.addcart {
+    margin-top: 20px;
+    background-color: #a9ddf3;
+}
+
+.addcart:hover {
+    background-color: #42c2c2;
+}
+
+img.productimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 300px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.productdes h2 {
+    font-size: 40px;
+    font-family: Chalet-Paris;
+    margin-bottom: 10px;
+}
+
+.productdes h3 {
+    font-size: 30px;
+    font-family: ChaletBook;
+}
+
+.productdes p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.img-responsive.productimg.lazyloaded {
+    width: 640px;
+    height: auto;
+}
+
+
+
+@media ( max-width: 585px ) {
+    .input-group.number-spinner span.input-group-btn, .input-group input, .input-group button {
+        display: block;
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .input-group.number-spinner {
+        position: relative;
+    }
+
+    .input-group.number-spinner span.data-up {
+        position: absolute;
+        top: 0;
+    }
+
+    .input-group.number-spinner span.data-dwn {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .form-control.text-center {
+        margin: 34px 0;
+    }
+
+    .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+        margin-left: 0;
+    }
+
+}
